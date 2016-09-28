@@ -12,7 +12,7 @@ int main()
 	ofstream fout;
 	fout.open("HugeInt_test.txt", ios::out);
 	////测试数据输入
-	HugeInt a("999999999999999999999"),b("8888765432101234"),c,d;
+	HugeInt a("99999999999999999999999999999999999999"),b("1234567891234567891234567891234567789"),c,d;
 	fout << a << " + " << b << " = " << a + b << endl;
 	fout << b << " - " << a << " = " << b - a << endl;
 	fout << a << " * " << b << " = " << a * b << endl;
